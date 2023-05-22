@@ -14,7 +14,10 @@ function playRound(playerSelection, computerSelection) {
     const c = computerSelection.toLowerCase();
     const computer = c[0].toUpperCase() + c.slice(1);
 
-    const win = (player == "Rock" && computer == "Scissors") || (player == "Paper" && computer == "Rock") || (player == "Scissors" && computer == "Paper");
+    const win = (player == "Rock" && computer == "Scissors") || 
+                (player == "Paper" && computer == "Rock") || 
+                (player == "Scissors" && computer == "Paper");
+                
     const draw = player == computer;
 
     if (win) {
