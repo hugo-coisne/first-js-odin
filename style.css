@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    padding: 20px;
+}
+
+#choices {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+.choice {
+    background-color: cyan;
+    padding:10px;
+}
+
+.choice:hover {
+    background-color: red;
+}
